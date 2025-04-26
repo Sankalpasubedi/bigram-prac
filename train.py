@@ -18,7 +18,7 @@ n_head = 4
 # n_head = 6
 n_layer = 6
 dropout = 0.2
-
+ 
 torch.manual_seed(1337)
 
 with open ('input.txt','r',encoding='utf-8') as f:
